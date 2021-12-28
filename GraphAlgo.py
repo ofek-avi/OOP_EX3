@@ -293,7 +293,6 @@ class GraphAlgo(GraphAlgoInterface):
                 graph.add_edge(n, i, w)
         self.g = graph
 
-
     def plot_graph(self) -> None:
         """
         Plots the graph.
@@ -325,3 +324,4 @@ class GraphAlgo(GraphAlgoInterface):
                 # plt.text((x+v)/2, (y+w)/2, str(wi), color="purple", fontsize=10)
 
         plt.show()
+
