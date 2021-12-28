@@ -1,0 +1,89 @@
+@startuml
+    'https://plantuml.com/sequence-diagram
+
+
+
+    class Main{
+        check
+        check0
+        check1
+        check2
+        check3
+        }
+    class DiGraph{
+        +v_size
+        +e_size
+        +get_all_v
+        +all_in_edges_of_node
+        +all_out_edges_of_node
+        *getnode
+        *get_distance
+        +get_mc
+        +add_edge
+        +add_node
+        +remove_node
+        +remove_edge
+    }
+
+    class GraphAlgo{
+        +get_graph
+        +load_from_json
+        +save_to_json
+        *Dijkstra
+        *initgraph
+        +shortest_path
+        *BFS
+        *dfs
+        *scc
+        *transpose
+        +TSP
+        +plot_graph
+        +centerPoint
+    }
+
+    interface GraphAlgoInterface{
+        get_graph
+        load_from_json
+        save_to_json
+        shortest_path
+        TSP
+        centerPoint
+        plot_graph
+    }
+
+    interface GraphInterface{
+        v_size
+        e_size
+        get_all_v
+        all_in_edges_of_node
+        all_out_edges_of_node
+        get_mc
+        add_edge
+        add_node
+        remove_node
+        remove_edge
+    }
+
+    class NodeData{
+        *getkey
+        *gettag
+        *getweight
+        *getinfo
+        *settag
+        *setweight
+        *setinfo
+        *getlocation
+        *setlocation
+    }
+
+    DiGraph <.. GraphInterface: realization
+    GraphAlgo <.. GraphAlgoInterface: realization
+
+
+    Main --> DiGraph
+    Main --> GraphAlgo
+
+    GraphAlgo -> DiGraph
+    DiGraph --> NodeData
+
+@enduml
