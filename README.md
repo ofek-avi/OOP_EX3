@@ -1,4 +1,4 @@
--- Ex3 --
+# Ex3
 
 @authers Ofek Avi Saadon & Yuval Bar-Maoz
 
