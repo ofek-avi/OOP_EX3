@@ -293,9 +293,6 @@ class GraphAlgo(GraphAlgoInterface):
                 graph.add_edge(n, i, w)
         self.g = graph
 
-    def plot_graph(self) -> None:
-        Gui()
-
 
     def plot_graph(self) -> None:
         """
