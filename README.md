@@ -2,7 +2,7 @@
 
 @authers Ofek Avi Saadon & Yuval Bar-Maoz
 
-###*introduction*
+### *introduction*
 
 This project is about directed weighted graphs.
 Directed weighted graphs are (simple) directed graphs with weights assigned to their edges.
@@ -10,7 +10,7 @@ The graph id loaded by json file.
 We asked to implement interfaces of directed weighted graphs and of directed weighted graphs algorithms, and to represent the graphs by GUI presentation.
 
 
-###*Project Materials*
+### *Project Materials*
 
 For understanding all the problem space we assisted the videos of William Fiset and wikipedia:
 
@@ -24,7 +24,7 @@ https://www.geeksforgeeks.org/
 https://stackoverflow.com/
 
 
-###*UML of the project*
+### *UML of the project*
 
 
 ![](Ex3-0.png)
@@ -37,13 +37,13 @@ Arrow with solid line between two Classes mean that this class depends on the ot
 
 The green points mean functions from the interface and the black points mean that this is a function that added by us for the project.
 
-###*Explanation on the classes*
+### *Explanation on the classes*
 
-####__main__
+#### __main__
 The main get json file and create a graph, this graph implements by the algorithms graph, and the function runGui create GUI presentation of this algorithms graph.
 
 
-####__DiGraph__
+#### __DiGraph__
 
 Implement of the Abstract Class GraphInterface and representing a graph with the follows methods:
 
@@ -66,7 +66,7 @@ More functions in Digraph that are not implement of GraphInterface:
 
 
 
-####__GraphAlgo__
+#### __GraphAlgo__
 
 Implement of the Abstract Class GraphInterface:
 
@@ -87,7 +87,7 @@ More functions in GraphAlgo that are not implement of GraphInterface:
 
 
 
-####__NodeData__
+#### __NodeData__
 
     getkey -> : Return the id associated with the node
     gettag -> : Return the temporal data in the node
