@@ -1,0 +1,23 @@
+
+graph:../data/G_30000_240000_1.json,shortest_path:0.0001652000000000875
+(inf, [])
+graph:../data/G_30000_240000_1.json,shortest_path:7.7600000000011e-05
+(inf, [])
+graph:../data/G_30000_240000_1.json,shortest_path:6.740000000005075e-05
+(inf, [])
+graph:../A1.json,shortest_path:0.00010149999999997661
+(inf, [])
+graph:A1.json,shortest_path:7.33000000001649e-05
+(inf, [])
+graph:A5.json,shortest_path:7.350000000005963e-05
+(inf, [])
+graph:A5.json,shortest_path:0.00014479999999994497
+(1.4195069847291193, [0, 2])
+graph:A5.json,shortest_path:0.00022689999999991883
+(1.4195069847291193, [0, 2])
+graph:A5.json,shortest_path:0.0012345000000002493
+(1.4195069847291193, [0, 2])
+graph:A5.json,shortest_path:0.00025470000000016313
+(1.4195069847291193, [0, 2])
+graph:A5.json,shortest_path:0.00029809999999996784
+(1.4195069847291193, [0, 2])

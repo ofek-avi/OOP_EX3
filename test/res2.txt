@@ -1,0 +1,8 @@
+
+graph:../data/A2.json,shortest_path:9.170000000002787e-05
+(3.0336329076522373, [0, 1, 2])
+graph:../data/A2.json,connected_component:0.0015160999999999092
+
+graph:../data/A2.json,shortest_path:0.00019290000000005136
+(3.0336329076522373, [0, 1, 2])
+graph:../data/A2.json,connected_component:0.0021913999999998435
