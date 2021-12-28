@@ -27,7 +27,7 @@ https://stackoverflow.com/
 ### *UML of the project*
 
 
-![](Ex3-0.png)
+![image](https://user-images.githubusercontent.com/92522577/147612354-bdbac38c-329c-4b79-9406-e767954072ab.png)
 
 This UML diagram represent the main classes in the project.
 
@@ -105,3 +105,4 @@ More functions in GraphAlgo that are not implement of GraphInterface:
 ![image](https://user-images.githubusercontent.com/92522577/147612182-bd621b64-b78f-4c3d-b59c-5f62018d5648.png)
 
 more compare you can see at the [TestGraphAlgo](https://github.com/ofek-avi/OOP_EX3/blob/main/test/TestGraphAlgo.py).
+
