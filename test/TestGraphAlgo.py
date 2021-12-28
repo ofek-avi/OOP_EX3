@@ -193,7 +193,7 @@ class TestGraphAlgo(unittest.TestCase):
         :return:None
         """
         ga1 = GraphAlgo.GraphAlgo()
-        filename = '../data/G_100_800_1.json'
+        filename = '../data/A2.json'
         ga1.load_from_json(filename)
         ga = self.graph_nx(ga1.get_graph())
 
