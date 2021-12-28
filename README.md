@@ -99,3 +99,9 @@ More functions in GraphAlgo that are not implement of GraphInterface:
     getlocation -> : Return the location of the node
     setlocation -> :Allows changing the node location
 
+
+###Compare to Ex2
+
+![image](https://user-images.githubusercontent.com/92522577/147612182-bd621b64-b78f-4c3d-b59c-5f62018d5648.png)
+
+more compare you can see at the [TestGraphAlgo](https://github.com/ofek-avi/OOP_EX3/blob/main/test/TestGraphAlgo.py).
