@@ -8,7 +8,7 @@ from src.GraphAlgoInterface import GraphAlgoInterface
 from src.Node_data import node_data
 
 
-class TestDiGraph(TestCase):
+class TestDiGraph(unittest.TestCase):
     def create_graph(self) -> DiGraph:
         g = DiGraph()
         for i in range(11):
